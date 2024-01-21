@@ -17,6 +17,6 @@ jobs:
           distribution: 'temurin'
       - name: Allure serve
         run: mvn allure:serve
-      - name: Allure report
-        run:  mvn allure:repor
+     # - name: Allure report
+     #   run:  mvn allure:repor
       - run: echo "🍏 This job's status is ${{ job.status }}."
